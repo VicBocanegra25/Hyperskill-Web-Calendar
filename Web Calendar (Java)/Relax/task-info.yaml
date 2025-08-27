@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: resources/application.properties
+    visible: true
+    learner_created: false
+  - name: src/webCalendarSpring/Main.java
+    visible: true
+    learner_created: false
+  - name: src/webCalendarSpring/controller/WebCalendarController.java
+    visible: true
+    learner_created: false
+  - name: src/webCalendarSpring/service/EventService.java
+    visible: true
+    learner_created: false
+  - name: src/webCalendarSpring/dto/EventDto.java
+    visible: true
+    learner_created: false
+  - name: src/webCalendarSpring/dto/EventRequestDto.java
+    visible: true
+    learner_created: false
+  - name: test/WebCalendarSpringTest.java
+    visible: false
+    learner_created: false
+  - name: build.gradle
+    visible: false
+    learner_created: false
+  - name: src/webCalendarSpring/repository/EventRepository.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/projects/396/stages/2343/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 18 Aug 2025 15:19:49 UTC"
+record: 3

@@ -1,0 +1,40 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### GET request to retrieve today's events
+GET http://localhost:28852/event/today
+Content-Type: application/json
+
+###
+
+### POST request with missing event field - should return 400 Bad Request
+POST http://localhost:28852/event
+Content-Type: application/json
+
+{
+  "date": "2021-02-10"
+}
+
+###
+
+### POST request with missing date field - should return 400 Bad Request
+POST http://localhost:28852/event
+Content-Type: application/json
+
+{
+  "event": "Video conference"
+}
+
+###
+
+### POST request with both event and date fields - should return 200 OK
+POST http://localhost:28852/event
+Content-Type: application/json
+
+{
+  "event": "Video conference",
+  "date": "2020-11-15"
+}
+
+###
